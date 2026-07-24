@@ -4,7 +4,7 @@ function About() {
       <h2 className="text-sm font-normal mb-6 text-neutral-500 uppercase tracking-widest">About</h2>
       <div className="space-y-4 text-neutral-800 leading-relaxed max-w-2xl">
         <p>
-          Frontend web developer and UI designer with a background in Design and Technology from Parsons School of Design.
+          Frontend web developer and UI designer with a degree in Design and Technology from Parsons School of Design.
           I specialize in crafting intuitive, accessible interfaces that blend technical precision with thoughtful design.
         </p>
         <p>

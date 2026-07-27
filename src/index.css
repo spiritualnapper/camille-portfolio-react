@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 html {
-  background-color: rgba(227, 227, 227, .80);
+  background-color: #ededea;
   font-family: 'Roboto Mono', monospace;
   height: 100%;
   scroll-behavior: smooth;
- 
+
 }

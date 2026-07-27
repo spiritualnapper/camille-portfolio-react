@@ -6,13 +6,13 @@ function ProjectDetail() {
   const project = PROJECTS.find((p) => p.id === id);
 
   if (!project) {
-    return <Navigate to="/work" replace />;
+    return <Navigate to="/" replace />;
   }
 
   return (
     <div className="w-full mt-24 scroll-mt-20">
-      <Link to="/work" className="block text-sm text-neutral-500 hover:underline">
-        &larr; Back to Work
+      <Link to="/" className="block text-sm text-neutral-500 hover:underline">
+        &larr; Back
       </Link>
 
       <section className="mt-10 max-w-3xl mx-auto">
@@ -20,7 +20,7 @@ function ProjectDetail() {
           {project.title}
         </h2>
 
-        <div className="flex flex-col md:flex-row md:items-start justify-center gap-2">
+        <div className="flex flex-col gap-6">
           {project.detailVideos.map((video, i) => (
             <video
               key={i}
@@ -29,7 +29,7 @@ function ProjectDetail() {
               loop
               muted
               playsInline
-              className="block w-full h-auto md:flex-1 md:min-w-0"
+              className={i === 0 ? "block w-full h-auto" : "block w-1/4 mx-auto h-auto"}
             />
           ))}
         </div>

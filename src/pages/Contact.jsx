@@ -1,0 +1,55 @@
+function Contact() {
+  return (
+    <section id="contact" className="w-full mt-24 scroll-mt-20">
+      <div className="max-w-2xl mx-auto">
+        <h2 className="text-sm font-normal mb-6 text-neutral-500 uppercase tracking-widest">Contact</h2>
+
+        <h3 className="text-sm font-normal text-neutral-500 uppercase tracking-widest">Email</h3>
+        <p className="mt-2">
+          <a
+            href="mailto:camille.elliott14@gmail.com"
+            className="text-neutral-800 no-underline hover:underline"
+          >
+            camille.elliott14@gmail.com
+          </a>
+        </p>
+
+        <h3 className="mt-10 text-sm font-normal text-neutral-500 uppercase tracking-widest">Social</h3>
+        <ul className="mt-2 flex flex-col gap-1 p-0 m-0 list-none">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/camille-elliott-b38baa222/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-800 no-underline hover:underline"
+            >
+              LinkedIn&#8599;
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/spiritualnapper"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-800 no-underline hover:underline"
+            >
+              GitHub&#8599;
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/camillelliott/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-800 no-underline hover:underline"
+            >
+              Instagram&#8599;
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
+
+export default Contact;

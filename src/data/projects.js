@@ -19,6 +19,7 @@ export const PROJECTS = [
     title: "Riding The J",
     subtitle: "Data visualization project exploring real MTA subway data, built during a mentorship with the Data Visualization Society.",
     stillImage: ridingTheJStill,
+    liveUrl: "https://spiritualnapper.github.io/Riding_The_J/",
     // No preview video yet — falls back to the still on hover until one is added.
     media: [
       { type: "image", src: ridingTheJSlide1, width: "half" },

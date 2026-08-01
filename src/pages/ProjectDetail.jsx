@@ -78,7 +78,21 @@ function ProjectDetail() {
         <div className="mt-8 max-w-2xl">
           <p className="text-sm text-neutral-500">{project.subtitle}</p>
           <p className="mt-4 text-sm md:text-base text-neutral-800 leading-relaxed">
-            {project.description}
+            {project.liveUrl && project.description.startsWith(project.title) ? (
+              <>
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-600 no-underline hover:underline"
+                >
+                  {project.title} &#8599;
+                </a>
+                {project.description.slice(project.title.length)}
+              </>
+            ) : (
+              project.description
+            )}
           </p>
         </div>
       </section>

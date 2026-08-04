@@ -97,7 +97,7 @@ function Contact() {
               </li>
             </ul>
           </div>
-          <pre className="shrink-0 text-right text-[8px] leading-[9px] font-mono text-neutral-500">{ASCII_ART}</pre>
+          <pre className="hidden md:block shrink-0 text-right text-[8px] leading-[9px] font-mono text-neutral-500">{ASCII_ART}</pre>
         </div>
       </div>
     </section>

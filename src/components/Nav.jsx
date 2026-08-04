@@ -28,7 +28,7 @@ function Nav() {
         <div className="text-neutral-500">Frontend Developer &amp; UI Designer</div>
       </Link>
 
-      <pre className="hidden md:block justify-self-center text-[5px] leading-[6px] font-mono text-neutral-500">
+      <pre className="justify-self-center text-[2.5px] leading-[3px] md:text-[5px] md:leading-[6px] font-mono text-neutral-500">
         {ASCII_ART}
       </pre>
 

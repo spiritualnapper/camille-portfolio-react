@@ -44,7 +44,7 @@ function About() {
               I carry into my work every day: precision, patience, and the discipline to continually refine my craft.
             </p>
           </div>
-          <pre className="shrink-0 text-right text-[8px] leading-[9px] font-mono text-neutral-500">{ASCII_ART}</pre>
+          <pre className="hidden md:block shrink-0 text-right text-[8px] leading-[9px] font-mono text-neutral-500">{ASCII_ART}</pre>
         </div>
       </div>
     </section>

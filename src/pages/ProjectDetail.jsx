@@ -1,4 +1,5 @@
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
+import ProjectList from "../components/ProjectList";
 import { PROJECTS } from "../data/projects";
 
 function groupMedia(media) {
@@ -49,12 +50,12 @@ function ProjectDetail() {
   }
 
   return (
-    <div className="w-full mt-24 scroll-mt-20">
-      <Link to="/" className="block text-sm text-neutral-500 hover:underline">
-        &larr; Back
-      </Link>
+    <div className="w-full flex flex-col md:flex-row gap-12 md:gap-16">
+      <aside className="md:w-64 shrink-0 md:sticky md:top-12 self-start">
+        <ProjectList />
+      </aside>
 
-      <section className="mt-10 max-w-3xl mx-auto">
+      <section className="flex-1 min-w-0 max-w-3xl">
         <h2 className="mb-6 text-sm font-normal text-neutral-500 uppercase tracking-widest">
           {project.title}
         </h2>

@@ -9,11 +9,6 @@ function About() {
             I build intuitive, accessible interfaces that combine thoughtful design with clean, maintainable code.
           </p>
           <p>
-            What drives me most is learning. I approach every project with the same rigor, curiosity, and attention to detail,
-            whether I'm working with familiar technologies or exploring something entirely new. I enjoy breaking down complex
-            problems, asking thoughtful questions, and creating solutions that are both technically sound and intuitive to use.
-          </p>
-          <p>
             Outside of development, you'll usually find me baking, practicing yoga, or writing. Each has taught me something
             I carry into my work every day: precision, patience, and the discipline to continually refine my craft.
           </p>

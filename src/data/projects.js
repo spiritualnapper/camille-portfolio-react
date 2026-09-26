@@ -16,7 +16,7 @@ import ridingTheJSlide2 from "../assets/projects/riding_the_J/slide_2.png";
 export const PROJECTS = [
   {
     id: "ridingthej",
-    title: "Riding The J",
+    title: "Riding the J",
     subtitle: "Data visualization project exploring real MTA subway data, built during a mentorship with the Data Visualization Society.",
     stillImage: ridingTheJStill,
     liveUrl: "https://spiritualnapper.github.io/Riding_The_J/",

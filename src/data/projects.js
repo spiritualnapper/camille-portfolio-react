@@ -26,7 +26,7 @@ export const PROJECTS = [
       { type: "image", src: ridingTheJSlide2, width: "half" },
       { type: "image", src: ridingTheJStill, width: "full" },
     ],
-    description: "Riding The J is an exploration of data visualization. During my mentorship with the Data Visualization Society, my goal was to sharpen my web development skills and build a deeper understanding of how to clean and visualize data using Python and JavaScript. The project takes real MTA subway data and turns it into an interactive visual story, from cleaning and structuring the dataset in Python to bringing it to life on the page with JavaScript."
+    description: "Riding the J is an exploration of data visualization. During my mentorship with the Data Visualization Society, my goal was to sharpen my web development skills and build a deeper understanding of how to clean and visualize data using Python and JavaScript. The project takes real MTA subway data and turns it into an interactive visual story, from cleaning and structuring the dataset in Python to bringing it to life on the page with JavaScript."
   },
 
   {
